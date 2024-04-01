@@ -1,0 +1,1 @@
+nohup matlab -nodisplay -nodesktop -r "run('ADN_BW_Optimization.m'); exit;"

@@ -1,0 +1,18 @@
+-O0
+No optimization (the default); generates unoptimized code but has the fastest compilation time.
+
+Note that many other compilers do substantial optimization even if ‘no optimization’ is specified. With gcc, it is very unusual to use -O0 for production if execution time is of any concern, since -O0 means (almost) no optimization. This difference between gcc and other compilers should be kept in mind when doing performance comparisons.
+
+-O1
+Moderate optimization; optimizes reasonably well but does not degrade compilation time significantly.
+
+-O2
+Full optimization; generates highly optimized code and has the slowest compilation time.
+
+-O3
+Full optimization as in -O2; also uses more aggressive automatic inlining of subprograms within a unit (Inlining of Subprograms) and attempts to vectorize loops.
+
+-Os
+Optimize space usage (code and data) of resulting program.
+
+https://gcc.gnu.org/onlinedocs/gnat_ugn/Optimization-Levels.html

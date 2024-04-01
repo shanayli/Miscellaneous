@@ -1,0 +1,3 @@
+-) os.system       # run windowns commands
+       example: os.system('cp ' + scaler_name[0] + ' ' + saved_models_folder_name)
+

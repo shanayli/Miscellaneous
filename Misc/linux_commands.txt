@@ -1,0 +1,3 @@
+locate               // finding folder under where you are
+top -o %MEM          // visualizing the the memory and CPU consumption of each user in the server
+screen               // a tool for making the jupyter notebook work after the connection is gone
